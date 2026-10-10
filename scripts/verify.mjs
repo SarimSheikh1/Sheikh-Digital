@@ -50,8 +50,7 @@ try {
     .click();
   await page.getByRole("heading", { level: 1, name: /AERION-DRIVE/ }).waitFor();
   report.checks.push("Command palette and project navigation");
-  assert.equal(await page.locator("iframe").count(), 0);
-  await page.getByRole("button", { name: "Start project" }).click();
+  assert.equal(await page.locator("iframe").count(), 1);
   await page.locator("iframe").waitFor();
   const frame = page.frameLocator("iframe");
   await frame
@@ -82,7 +81,7 @@ try {
   await page.getByRole("heading", { level: 1, name: /AERION-DRIVE/ }).waitFor();
   report.checks.push("Direct project route reload");
   await page.goto("http://127.0.0.1:5174/projects/todo-app");
-  await page.getByText("This idea needs a live link.").waitFor();
+  await page.getByText("This deployment needs public access.").waitFor();
   assert.equal(await page.locator("iframe").count(), 0);
   report.checks.push(
     "Unavailable deployment has honest pending state and no fabricated working version",
