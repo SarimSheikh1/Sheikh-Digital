@@ -1,9 +1,7 @@
 import { useState } from "react";
-import Dialog from "./Dialog";
 import { ScrollTrigger } from "../animations/useAnimation";
 export default function Preview({ project, large = false }) {
-  const [device, setDevice] = useState("desktop"),
-    [zoom, setZoom] = useState(false);
+  const [device, setDevice] = useState("desktop");
   const src =
     device === "desktop" ? project.desktopScreenshot : project.mobileScreenshot;
   const image = src ? (
@@ -49,17 +47,7 @@ export default function Preview({ project, large = false }) {
           <span>↗</span>
         </div>
         {src ? (
-          large ? (
-            <button
-              className="image-button"
-              onClick={() => setZoom(true)}
-              aria-label={`Enlarge ${project.title} ${device} screenshot`}
-            >
-              {image}
-            </button>
-          ) : (
-            image
-          )
+          image
         ) : (
           <div className="no-preview">
             <span className="preview-symbol">
@@ -78,18 +66,6 @@ export default function Preview({ project, large = false }) {
         <small>
           Captured {project.screenshotCapturedAt}. Interfaces may have changed.
         </small>
-      )}
-      {zoom && (
-        <Dialog
-          title={`${project.title} · ${device}`}
-          onClose={() => setZoom(false)}
-        >
-          <img
-            className="lightbox"
-            src={src}
-            alt={`${project.title} ${device} homepage`}
-          />
-        </Dialog>
       )}
     </div>
   );
