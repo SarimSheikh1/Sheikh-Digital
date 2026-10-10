@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Preview from "./Preview";
 
 export default function InteractiveProject({ project }) {
-  const location = useLocation();
   const [mode, setMode] = useState("interactive");
-  const [started, setStarted] = useState(Boolean(location.state?.launch));
+  const [started, setStarted] = useState(Boolean(project.liveUrls[0]));
   const [device, setDevice] = useState("desktop");
   const [session, setSession] = useState(0);
   const [waiting, setWaiting] = useState(false);
@@ -130,11 +129,16 @@ export default function InteractiveProject({ project }) {
         </>
       ) : (
         <div className="pending-live">
-          <span className="eyebrow">PUBLIC DEPLOYMENT PENDING</span>
-          <h2>This idea needs a live link.</h2>
+          <span className="eyebrow">PUBLIC ACCESS REQUIRED</span>
+          <h2>
+            {project.publicAccessStatus === "protected"
+              ? "This deployment needs public access."
+              : "This idea needs a live link."}
+          </h2>
           <p>
-            The owner is preparing a public deployment. The genuine source is
-            available now.
+            {project.publicAccessStatus === "protected"
+              ? "This project is deployed, but its recorded Vercel URL asks visitors to log in. A public production URL is needed to show it here."
+              : "The owner is preparing a public deployment. The genuine source is available now."}
           </p>
           <a
             className="button"
