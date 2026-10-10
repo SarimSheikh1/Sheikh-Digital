@@ -1,0 +1,38 @@
+{
+  "liveEmbeds": [
+    {
+      "title": "Mardara_Speed",
+      "renderedBody": true,
+      "bodyCharacters": 392
+    },
+    {
+      "title": "Mardara-gym-",
+      "renderedBody": true,
+      "bodyCharacters": 6148
+    },
+    {
+      "title": "KINETIQ-STUDIO",
+      "renderedBody": true,
+      "bodyCharacters": 1862
+    },
+    {
+      "title": "ROYALVOWS",
+      "renderedBody": true,
+      "bodyCharacters": 2897
+    },
+    {
+      "title": "-Nexagen-Solution-website",
+      "renderedBody": true,
+      "bodyCharacters": 4660
+    },
+    {
+      "title": "AERION-DRIVE",
+      "renderedBody": true,
+      "bodyCharacters": 1736
+    }
+  ],
+  "blockedFrameDirectLink": "https://aerion-drive.vercel.app/",
+  "stopUnmountsIframe": true,
+  "dialogFocusContained": true,
+  "dialogFocusRestored": true
+}
