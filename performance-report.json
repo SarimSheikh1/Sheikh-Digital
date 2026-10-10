@@ -1,0 +1,25 @@
+{
+  "conditions": "Production preview on localhost; headless installed Chrome; unthrottled; reduced motion; one cold context per viewport; not a Lighthouse score or field measurement.",
+  "results": [
+    {
+      "name": "mobile",
+      "viewport": 390,
+      "dclMs": 489,
+      "loadMs": 490,
+      "fcpMs": 1632,
+      "lcpMs": 1632,
+      "cls": 0,
+      "transferredBytes": 205937
+    },
+    {
+      "name": "desktop",
+      "viewport": 1440,
+      "dclMs": 185,
+      "loadMs": 185,
+      "fcpMs": 676,
+      "lcpMs": 676,
+      "cls": 0,
+      "transferredBytes": 205637
+    }
+  ]
+}
