@@ -11,15 +11,16 @@
     "desktopScreenshot": null,
     "mobileScreenshot": null,
     "screenshotCapturedAt": null,
-    "sourcePlatform": "GitHub",
+    "sourcePlatform": "Vercel",
     "featured": false,
-    "verificationStatus": "Public repository verified; preview not available",
+    "verificationStatus": "Production deployment recorded; Vercel login required on recorded URL",
     "updatedAt": "2026-09-26T06:39:49Z",
     "topics": [],
     "title": "Mardara-Expense-Tracker",
     "readmeExcerpt": "Mardara Expense Tracker Track Your Money. Control Your Future. A responsive, full-stack personal finance application built for beginners with Node.js, Express, SQLite, HTML, CSS and Vanilla JavaScript. Features - Secure registration/login with bcrypt password hashing and JWT authentication - Private per-user income and expense records - Create, edit, delete, search and combine transaction filters - Monthly dashboard: income, expense, balance, budget, remaining budget, category breakdown - Monthly budgets with safe upsert behavior - User profile and password change - CSV export containing only the logged-in user's data - Responsive desktop, tablet and mobile layout, loading/empty states and notifications Tech stack Node.js runs the server. Express provides REST APIs. SQLite is the local database through better-sqlite3. The browser UI uses HTML5, CSS3, Vanilla JavaScript and Fetch API. Ins",
     "readmeUrl": "https://github.com/SarimSheikh1/Mardara-Expense-Tracker/blob/main/README.md",
-    "overview": "The repository is available for exploration. Its goals, interface, and implemented features have not been independently documented here."
+    "overview": "The repository is available for exploration. Its goals, interface, and implemented features have not been independently documented here.",
+    "publicAccessStatus": "protected"
   },
   {
     "id": 1217718897,
@@ -33,13 +34,14 @@
     "desktopScreenshot": null,
     "mobileScreenshot": null,
     "screenshotCapturedAt": null,
-    "sourcePlatform": "GitHub",
+    "sourcePlatform": "Vercel",
     "featured": false,
-    "verificationStatus": "Public repository verified; preview not available",
+    "verificationStatus": "Production deployment recorded; Vercel login required on recorded URL",
     "updatedAt": "2026-04-24T01:55:12Z",
     "topics": [],
     "title": "SNIPER-SHADOW",
-    "overview": "The repository name suggests a sniper-themed experiment. Gameplay details and testing status have not been supplied."
+    "overview": "The repository name suggests a sniper-themed experiment. Gameplay details and testing status have not been supplied.",
+    "publicAccessStatus": "protected"
   },
   {
     "id": 1196777725,
@@ -53,13 +55,14 @@
     "desktopScreenshot": null,
     "mobileScreenshot": null,
     "screenshotCapturedAt": null,
-    "sourcePlatform": "GitHub",
+    "sourcePlatform": "Vercel",
     "featured": false,
-    "verificationStatus": "Public repository verified; preview not available",
+    "verificationStatus": "Production deployment recorded; Vercel login required on recorded URL",
     "updatedAt": "2026-04-01T02:06:35Z",
     "topics": [],
     "title": "TARGET-RUSH",
-    "overview": "Explore the public source. Specific mechanics and project testing have not been verified."
+    "overview": "Explore the public source. Specific mechanics and project testing have not been verified.",
+    "publicAccessStatus": "protected"
   },
   {
     "id": 1394520719,
@@ -73,13 +76,14 @@
     "desktopScreenshot": null,
     "mobileScreenshot": null,
     "screenshotCapturedAt": null,
-    "sourcePlatform": "GitHub",
+    "sourcePlatform": "Vercel",
     "featured": false,
-    "verificationStatus": "Public repository verified; preview not available",
+    "verificationStatus": "Production deployment recorded; Vercel login required on recorded URL",
     "updatedAt": "2026-09-29T06:38:12Z",
     "topics": [],
     "title": "Mardara_Travel_Agent",
-    "overview": "An experiment grouped under travel based on its repository name. Its public interface is not yet available for capture."
+    "overview": "An experiment grouped under travel based on its repository name. Its public interface is not yet available for capture.",
+    "publicAccessStatus": "protected"
   },
   {
     "id": 1394611925,
@@ -201,13 +205,14 @@
     "desktopScreenshot": null,
     "mobileScreenshot": null,
     "screenshotCapturedAt": null,
-    "sourcePlatform": "GitHub",
+    "sourcePlatform": "Vercel",
     "featured": false,
-    "verificationStatus": "Repository verified; public preview unavailable",
+    "verificationStatus": "Production deployment recorded; Vercel login required on recorded URL",
     "updatedAt": "2026-10-03T07:51:22Z",
     "topics": [],
     "title": "todo-app",
-    "overview": "The live homepage and source repository are available. Detailed workflow and feature testing have not been documented here."
+    "overview": "The live homepage and source repository are available. Detailed workflow and feature testing have not been documented here.",
+    "publicAccessStatus": "protected"
   },
   {
     "id": 1409870893,
