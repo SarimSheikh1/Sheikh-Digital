@@ -1,5 +1,9 @@
 # Verification — 10 October 2026
 
+## Follow-up update
+
+The project detail now automatically displays the actual live website without an initial Start button. A focused browser check verified the real AERION heading, immediate iframe presence, the Stop action, and the honest restricted-deployment state; see `autostart-report.json`. Public GitHub deployment records confirm production deployments for the other five selected projects, but recorded URLs redirect anonymous visitors to Vercel login. Their public production domains are required before enabling their interactive viewers. No protection settings were changed.
+
 - Production build passed with the exact 11 owner-selected projects. Horror_die_Website is excluded.
 - Three automated tests passed: combined filtering, reset/case-insensitive search, and real importer pagination behavior with multiple mocked pages. The live import read 70 public repositories and refreshed only the curated selection. GitHub rate limits and missing READMEs are handled as partial failures without breaking the frontend.
 - Browser checks passed at 320, 360, 390, 430, 768, 1024 and 1440 CSS pixels with zero unintended page overflow. All 11 project detail routes also fit 320px. Landscape was checked at 844 × 390. Forced WebGL absence also passed: the CSS artifact remained visible and all 11 projects stayed discoverable (`fallback-report.json`).
