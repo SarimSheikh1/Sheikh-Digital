@@ -1,4 +1,4 @@
-import { chromium } from "@playwright/test";
+﻿import { chromium } from "@playwright/test";
 import fs from "node:fs/promises";
 const projects = JSON.parse(
   await fs.readFile("src/data/projects.json", "utf8"),
@@ -14,7 +14,7 @@ try {
         const page = await context.newPage();
         try {
           await page.goto(`http://127.0.0.1:5174/projects/${p.slug}`);
-          await page.getByRole("button", { name: "Start project" }).click();
+
           await page.waitForTimeout(9000);
           const text = await page
             .frameLocator("iframe")
@@ -42,7 +42,7 @@ try {
   const page = await context.newPage();
   await page.route("https://aerion-drive.vercel.app/**", (r) => r.abort());
   await page.goto("http://127.0.0.1:5174/projects/aerion-drive");
-  await page.getByRole("button", { name: "Start project" }).click();
+
   const fallback = await page
     .getByRole("link", { name: "Blank or blocked? Open website" })
     .getAttribute("href");
