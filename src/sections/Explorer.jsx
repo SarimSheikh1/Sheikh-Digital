@@ -211,7 +211,7 @@ export default function Explorer({
               >
                 {p.liveUrls.length
                   ? "Use project →"
-                  : "View project / live link pending →"}
+                  : "View project / public access required →"}
               </Link>
               {p.liveUrls.length > 0 && (
                 <a
