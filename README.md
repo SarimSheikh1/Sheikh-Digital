@@ -37,9 +37,9 @@ Add genuine desktop and mobile screenshots to `public/previews/`, preferably Web
 
 ## Use the actual projects
 
-Each publicly verified deployment has **Use project** and **Open website** actions. Use project opens a single interactive iframe after a visitor clicks. The project detail also offers an explicit Start button, desktop/mobile frame sizes, reload, stop, and direct open. Interface captures remain a separate fallback. Websites are not loaded together on the gallery page. Iframe load events are never presented as proof of successful rendering. If a website is blank or blocks embedding, the direct website action remains available; CSP, authentication and X-Frame-Options are not bypassed. External websites retain their own availability, privacy and backend requirements.
+Each publicly verified deployment has **Use project** and **Open website** actions. The project page immediately displays a single interactive live website, with desktop/mobile frame sizes, reload, stop, and direct open. Interface captures remain a separate fallback. Websites are not loaded together on the gallery page. Iframe load events are never presented as proof of successful rendering. If a website is blank or blocks embedding, the direct website action remains available; CSP, authentication and X-Frame-Options are not bypassed. External websites retain their own availability, privacy and backend requirements.
 
-To connect a newly deployed project, add its verified HTTPS URL to `liveUrls` in the matching JSON record, set `candidateUrl` to the same URL for optional capture, update `sourcePlatform` and `verificationStatus`, then rebuild. The owner will deploy the five pending projects separately. No fake local version has been substituted.
+To connect a newly deployed project, add its verified HTTPS URL to `liveUrls` in the matching JSON record, set `candidateUrl` to the same URL for optional capture, update `sourcePlatform` and `verificationStatus`, then rebuild. Public GitHub records now show production deployments for the five restricted projects; their recorded URLs redirect anonymous visitors to Vercel login. A publicly accessible production domain is needed for each. No fake local version has been substituted.
 
 ## Social links
 
