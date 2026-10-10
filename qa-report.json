@@ -1,0 +1,53 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "scroll": 320,
+      "viewport": 320
+    },
+    {
+      "width": 360,
+      "scroll": 360,
+      "viewport": 360
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "width": 430,
+      "scroll": 430,
+      "viewport": 430
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "viewport": 768
+    },
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "viewport": 1024
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "Combined category, technology and platform filters preserved across views",
+    "Search, view synchronization, reset and empty state",
+    "Command palette and project navigation",
+    "Actual AERION project rendered inside the interactive frame, verified by its heading",
+    "Genuine mobile preview lightbox and Escape close",
+    "Direct project route reload",
+    "Unavailable deployment has honest pending state and no fabricated working version",
+    "All 11 direct project routes fit a 320px viewport",
+    "Landscape and reduced-motion CSS fallback",
+    "Motion-enabled GSAP Flip views and animation startup"
+  ],
+  "performance": {}
+}
